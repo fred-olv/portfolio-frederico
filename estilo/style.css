@@ -1,0 +1,217 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+@font-face{
+    font-family: 'Portfolio';
+    src: url('../fontes/Louis\ George\ Cafe.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+:root{
+--cor1: #69a4cb;
+--cor2: #64AAFA;
+--cor3: #3368A6;
+--cor4: #49819C;
+--cor5: #374F91;
+
+--fonte1: Arial, Helvetica, sans-serif;
+--fonte2: 'Roboto', sans-serif, cursive;
+--fonte3: 'Portfolio', cursive;
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor3);
+    font-family: var(--fonte1);
+
+}
+
+header{
+    font-family: var(--fonte3);
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
+    color: white;
+    min-height: 150px;
+}
+
+header h1{
+    padding-top: 35px;
+    font-size: 3em;
+    text-shadow: 1.2px -1px 1px;
+}
+
+header p{
+    padding-top: 10px;
+    font-size: 1.5em;
+    text-shadow: .8px -1px .8px;
+}
+
+nav{
+    background-color: var(--cor5);
+    padding: 10px;
+    box-shadow: -1px 1px 2px ;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+nav > a:hover{
+    background-color: var(--cor2);
+    color: var(--cor5);
+    text-decoration: underline;
+}
+
+main{
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 1px;
+    background-color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main h2{
+    font-family: var(--fonte3);
+    color: var(--cor5);
+    font-size: 1.6em;
+    background-image: linear-gradient(to right, var(--cor2), transparent);
+    padding: 5px 7px 5px 7px;
+    border-radius: 1%;
+    box-shadow: 0px 0.8px 0.8px 0px rgba(0, 0, 0, 0.162);
+}
+
+main h3{
+    font-family: var(--fonte3);
+    color: var(--cor5);
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    border-radius: 1%;
+    box-shadow: .5px .5px .5px rgba(0, 0, 0, 0.128);
+}
+main > section > img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 0px;
+}
+
+.inicio{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, var(--cor3), var(--cor2));
+}
+
+.apresentar{
+    font-size: 20px;
+    margin: auto;
+    font-size: 1.4em;
+    text-align: center;
+}
+.apresentar > strong{
+    color: var(--cor5);
+    font-size: 1.6em;
+}
+
+.foto{
+margin-left: 5px;
+border-radius: 50%;
+}
+
+main p{
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1em;
+    line-height: 1.5em;
+    padding: 5px 15px 1px 15px;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--cor5);
+    padding: 2px 6px;
+}
+
+main a:hover{
+    text-decoration: underline;
+    background-color: var(--cor1);
+}
+
+aside{
+    background-color:var(--cor2);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+    margin: 3px;
+}
+
+main ul{
+    list-style-position: inside;
+    list-style: none;
+    columns: 3;
+    padding: 15px;
+    margin: -10px -10px 0px -10px;
+
+}
+
+.lista1{
+    background-color: var(--cor1);
+    margin: auto;
+    box-shadow: 0px 2px 4px 0.8px rgb(0 0 0 / 28%);
+    border-radius: 1%;
+}
+
+li{
+    margin: 18px;
+}
+.termo{
+margin-top: 0px;
+}
+
+.diferencial{
+    padding-bottom: 10px;
+}
+
+footer{
+    background-color: var(--cor5);
+    color: white;
+    font-size: .8em;
+    padding:10px;
+    margin-top: 5px;
+    line-height: 1.7em;
+    text-align: center;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-size: .95em;
+}
+
+footer > p > a:hover{
+    color: var(--cor5);
+    background-color: var(--cor1);
+    text-decoration: underline;
+}
