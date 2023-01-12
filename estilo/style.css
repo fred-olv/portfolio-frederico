@@ -171,7 +171,7 @@ main ul{
     list-style-position: inside;
     list-style: none;
     columns: 3;
-    padding: 15px;
+    padding: 20px;
     margin: -10px -10px 0px -10px;
 
 }
@@ -179,6 +179,7 @@ main ul{
 .lista1{
     background-color: var(--cor1);
     margin: auto;
+    padding-top: 30px;
     box-shadow: 0px 2px 4px 0.8px rgb(0 0 0 / 28%);
     border-radius: 1%;
 }
