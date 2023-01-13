@@ -114,6 +114,11 @@ main > section > img{
     box-shadow: 0px 0px 0px;
 }
 
+.imagelista{
+    padding-bottom: 30px;
+    box-shadow: 0px 0px 0px;
+}
+
 .inicio{
     padding: 10px 10px 10px 10px;
     display: flex;
